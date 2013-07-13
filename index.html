@@ -9,6 +9,8 @@
 	
 	<!-- Required stylesheet -->
 	<link rel="stylesheet" href="core/deck.core.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	
 	<!-- Extension CSS files go here. Remove or add as needed. -->
 	<link rel="stylesheet" href="extensions/goto/deck.goto.css">
@@ -26,13 +28,15 @@
 	
 	<!-- Required Modernizr file -->
 	<script src="modernizr.custom.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body class="deck-container">
 
 <!-- Begin slides. Just make elements with a class of slide. -->
 
 <section class="slide">
-  <img style="padding-top:30px" src='images/logo.png'/>
+  <img style="padding-top:30px" src='img/logo.png'/>
   <center>
     <h2>Saving Projects from Role Based Authorization</h2>
     <h3>Eric LaForce - Skookum Digital Works</h3>
@@ -40,26 +44,28 @@
 </section>
 
 <section class="slide">
-  <img style="padding-top:30px" src='images/logo.png'/>
-  <center>
-    <div style="width:50%">
-      <div style="float:left">
-        <h3>Contact</h3>
-        <h4><a href='https://twitter.com/elaforc'>@elaforc</a></h4>
-        <h4><a href='https://twitter.com/keithlaforce'>@keithlaforce</a></h4>
-        <h4><a href='https://twitter.com/skookum'>@skookum</a></h4>
-      </div>
-      <div style="float:right">
-        <h3>Reference Links</h3>
-        <h4><a href='https://github.com/Skookum/Hero'>Hero on Github</a></h4>
-        <h4><a href='http://nuget.org/packages/Hero/'>Hero on NuGet</a></h4>
-        <h4><a href='https://github.com/Skookum/HeroGame'>HeroGame on Github</a></h4>
-        <h4><a href='http://endgate.net/'>Endgate</a></h4>
-        <h4><a href='http://signalr.net/'>SignalR</a></h4>
-        <h4><a href='https://github.com/ryanb/cancan'>CanCan</a></h4>
-      </div>
+  <div class="row">
+    <div class="span12 offset1">
+    <img style="padding-top:30px" src='img/logo.png'/>
     </div>
-  </center>
+  </div>
+  <div class="row">
+    <div class="span4 offset3">
+      <h3>Contact</h3>
+      <h4><a href='https://twitter.com/elaforc'>@elaforc</a></h4>
+      <h4><a href='https://twitter.com/keithlaforce'>@keithlaforce</a></h4>
+      <h4><a href='https://twitter.com/skookum'>@skookum</a></h4>
+    </div>
+    <div class="span4 offset1">
+      <h3>Reference Links</h3>
+      <h4><a href='https://github.com/Skookum/Hero'>Hero on Github</a></h4>
+      <h4><a href='http://nuget.org/packages/Hero/'>Hero on NuGet</a></h4>
+      <h4><a href='https://github.com/Skookum/HeroGame'>HeroGame on Github</a></h4>
+      <h4><a href='http://endgate.net/'>Endgate</a></h4>
+      <h4><a href='http://signalr.net/'>SignalR</a></h4>
+      <h4><a href='https://github.com/ryanb/cancan'>CanCan</a></h4>
+    </div>
+  </div>
 </section>
 
 <!-- End slides. -->
@@ -95,6 +101,7 @@
 <!-- Required JS files. -->
 <script src="jquery-1.7.2.min.js"></script>
 <script src="core/deck.core.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!-- Extension JS files. Add or remove as needed. -->
 <script src="core/deck.core.js"></script>
